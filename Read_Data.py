@@ -3,13 +3,12 @@
 ###########################################################################
 # Pytorch - Service Function
 #
-# Base URL     : https://wikidocs.net/55580
-# 2020 07 02 by Jinseuk Seok
+# 2020 07 02 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 Read_Data.py
-                    Written by Jinwuk @ 2021-03-10
+                    Written by ******* @ 2021-03-10
 ====================================================
 for Reading of data set for Torch testbench  
 '''
@@ -22,8 +21,8 @@ import torchvision.datasets as dsets
 import torchvision.transforms as transforms
 import torch.nn.init
 
-from torch.utils.data import TensorDataset  # 텐서데이터셋
-#from torch.utils.data import DataLoader     # 데이터로더
+from torch.utils.data import TensorDataset  # Tensor Data Set
+#from torch.utils.data import DataLoader     # Data loader
 
 # For fix codes the MNIST data loading
 '''
