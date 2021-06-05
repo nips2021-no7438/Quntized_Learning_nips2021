@@ -4,12 +4,12 @@
 # Pytorch - Deep Neural Network Test (For LMDB test)
 #
 # Base URL     :
-# 2020 09 07 by Jinseuk Seok
+# 2020 09 07 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 LMDB_test.py
-                    Written by Jinwuk @ 2020-09-07
+                    Written by *********** @ 2020-09-07
 ====================================================
 Example : python LMDB_test.py 
 '''
