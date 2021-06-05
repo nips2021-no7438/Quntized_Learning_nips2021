@@ -4,12 +4,12 @@
 # Pytorch - Deep Neural Network Test
 # Working Directory : D:\Work_2020\[099]_git_test\python_test_2020\pytorch_test
 # Base URL     : https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html
-# 2020 07 02 by Jinseuk Seok
+# 2020 07 02 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_nn01.py
-                    Written by Jinwuk @ 2020-09-03
+                    Written by *********** @ 2020-09-03
 ====================================================
 Example : python torch_nn01.py 
 '''
@@ -24,7 +24,7 @@ from torch_service import torch_service, MNISTDataSet
 
 # =================================================================
 # Definition of Network
-# 여기에 있는 Definition은 데이터 1개에 대하여 수행하는 방식이다.
+# Herein, Definition is nable to operate learning to 1 datum
 # =================================================================
 class LeNet(torch.nn.Module):
     _out_nodes  = 10
@@ -59,7 +59,7 @@ class LeNet(torch.nn.Module):
 
         return _out
 
-    # _labeldata[_idx] 를 입력으로 받아 이를 output node dimension과 동일한 Traget data로 만드는 함수
+    # _labeldata[_idx] as input, and make a Target data with same dimension of the output node
     def eval_target(self, _labeldata):
         _tgidx = int(_labeldata)
         self._target[_tgidx] = 1.0
@@ -125,7 +125,7 @@ print("batch_size : %3d " %_batch_size)
 x = _imgdata[_idx]
 y = _net.forward(x)
 
-# loss_a = (y - t).pow(2).sum() 와 비교해 보면 해당 loss는 Dimension(여기서는 10)을 나누어 준것이다.
+# comparing loss_a = (y - t).pow(2).sum(), the loss here is divided with Dimension(Here, it is 10).
 t       = _net.eval_target(_labeldata[_idx])
 loss    = criterion(y, t)
 

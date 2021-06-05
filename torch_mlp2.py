@@ -3,13 +3,13 @@
 ###########################################################################
 # Pytorch - Multilayer Perceptron Test
 # Working Directory : D:\Work_2020\[099]_git_test\python_test_2020\pytorch_test
-# Base URL     : https://wikidocs.net/61010
-# 2020 07 02 by Jinseuk Seok
+# Base URL     :
+# 2020 07 02 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_mlp2.py : Based on torch module
-                    Written by Jinwuk @ 2021-03-08
+                    Written by *********** @ 2021-03-08
 ====================================================
 Example : python torch_mlp2.py
 '''
@@ -37,7 +37,7 @@ print(" Working Path : ", os.getcwd())
 # System Data
 dtype   = torch.float
 device  = torch.device("cpu")
-# device = torch.device("cuda:0") # GPU에서 실행하려면 이 주석을 제거하세요.
+# device = torch.device("cuda:0") # Please remove the comment if you want operate the code on GPU.
 N, D_in, H, D_out = 64, 1000, 100, 10
 
 print("-------------------------------------------------------")
@@ -67,7 +67,7 @@ def init_weights(m):
         torch.nn.init.xavier_uniform(m.weight)
         m.bias.data.fill_(0.01)
 
-# Definition of Layer (여러가지 테스트를 위해 이렇게 작성)
+# Definition of Layer (For various test)
 linear1 = torch.nn.Linear(D_in, H, bias=True)
 linear2 = torch.nn.Linear(H, D_out, bias=True)
 relu    = torch.nn.ReLU()
@@ -82,7 +82,7 @@ loss_fn = torch.nn.MSELoss(reduction='sum')
 print("-------------------------------------------------------")
 print(" 2. Learning")
 print("-------------------------------------------------------")
-# nn Module을 사용할 경우 LR=1.0 은 실제로는 0.01 이 된다. 고로 10^-4을 해야 원래대로 10^-6이 된다.
+# When you use nn Module, LR=1.0 is equal to 0.01. Therefore, set LR=10^-4 to be 10^-6.
 learning_rate = 1e-4
 for Epoch in range(100):
     # Forward

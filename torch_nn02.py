@@ -3,14 +3,14 @@
 ###########################################################################
 # Pytorch - Multilayer Perceptron Test
 # Working Directory : D:\Work_2020\[099]_git_test\python_test_2020\pytorch_test
-# Base URL     : https://wikidocs.net/63565
+# Base URL     :
 # Simple CNN for MNIST test (Truth test)
-# 2020 07 02 by Jinseuk Seok
+# 2020 07 02 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_nn02.py : Based on torch module
-                    Written by Jinwuk @ 2021-03-10
+                    Written by *********** @ 2021-03-10
 ====================================================
 Example : python torch_nn02.py 
 '''
@@ -188,7 +188,7 @@ def _operation():
             # Data loading on CPU or GPU
             X, Y = X.to(_device), Y.to(_device)
 
-            # Learning과 직접 관련이 없는 부분은 Gradient=0 상태에서 수행
+            # The part without any connection to Learning is operated as the state of Gradient=0
             optimizer.zero_grad()
             _prediction = model.forward(X)
             _cost = criterion(_prediction, Y)

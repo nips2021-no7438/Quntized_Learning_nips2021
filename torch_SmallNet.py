@@ -3,14 +3,14 @@
 ###########################################################################
 # Pytorch - Small Networks for Test
 # Working Directory : D:\Work_2021\python_test_2021\pytorch_test_2021\
-# Base URL     : https://wikidocs.net/63565
+# Base URL     :
 #
-# 2021 05 27 by Jinseuk Seok
+# 2021 05 27 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_SmallNet.py : Based on torch module
-                    Written by Jinwuk @ 2021-03-10
+                    Written by *********** @ 2021-03-10
 ====================================================
 Example : python torch_SmallNet.py
 '''
@@ -51,7 +51,7 @@ class CNN(torch.nn.Module):
 
 #-------------------------------------------------------------
 # Description of LeNet
-# Reference : https://github.com/Kulbear/pytorch-project-template/blob/master/models/lenet.py
+# Reference :
 # Input  : 1 channel 32x32x3
 # Layer1 : conv2d (3x32x32x6) to pooling2d(16x16x6)
 # Layer2 : conv2d (14x14x64) to pooling2d(7x7x64)

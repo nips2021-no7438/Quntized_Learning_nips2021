@@ -3,14 +3,14 @@
 ###########################################################################
 # Pytorch - Multilayer Perceptron Test
 # Working Directory : D:\Work_2020\[099]_git_test\python_test_2020\pytorch_test
-# Base URL     : https://wikidocs.net/61010
+# Base URL     :
 # Torch NN Module in class
-# 2020 07 02 by Jinseuk Seok
+# 2020 07 02 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_mlp3.py : Based on torch module
-                    Written by Jinwuk @ 2021-03-10
+                    Written by *********** @ 2021-03-10
 ====================================================
 Example : python torch_mlp3.py
 '''
@@ -86,7 +86,7 @@ if __name__ == "__main__":
     print("-------------------------------------------------------")
     print(" 2. Learning")
     print("-------------------------------------------------------")
-    # nn Module을 사용할 경우 LR=1.0 은 실제로는 0.01 이 된다. 고로 10^-4을 해야 원래대로 10^-6이 된다.
+    # When you use nn Module, LR=1.0 is equal to 0.01. Therefore, set LR=10^-4 to be 10^-6.
     learning_rate = 1e-4
     for Epoch in range(100):
         # Forward

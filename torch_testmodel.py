@@ -3,13 +3,13 @@
 ###########################################################################
 # Pytorch - Multilayer Perceptron Test
 # Working Directory : D:\Work_2020\[099]_git_test\python_test_2020\pytorch_test
-# Base URL     : https://eda-ai-lab.tistory.com/404
-# 2021 03 09 by Jinseuk Seok
+# Base URL     :
+# 2021 03 09 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_testmodel.py : Based on torch module
-                    Written by Jinwuk @ 2021-03-08
+                    Written by *********** @ 2021-03-08
 ====================================================
 Example : python torch_testmodel.py
 '''

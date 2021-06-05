@@ -3,15 +3,13 @@
 ###########################################################################
 # Pytorch - Definition of ResNet
 # Working Directory : D:\Work_2020\[099]_git_test\python_test_2020\pytorch_test
-# Base URL     : https://github.com/dnddnjs/pytorch-cifar10/blob/enas/resnet/train.py
-#                https://dnddnjs.github.io/cifar10/2018/10/09/resnet/
 # ResNet
-# 2021 03 25 by Jinseuk Seok
+# 2021 03 25 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 resnet_test.py : Based on torch module
-                    Written by Jinwuk @ 2021-03-25
+                    Written by *********** @ 2021-03-25
 ====================================================
 Example : This python file is not executable
 '''

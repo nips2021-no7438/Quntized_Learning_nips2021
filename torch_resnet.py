@@ -3,16 +3,14 @@
 ###########################################################################
 # Pytorch - Definition of ResNet
 # Working Directory : D:\Work_2020\[099]_git_test\python_test_2020\pytorch_test
-# Base URL     : https://github.com/dnddnjs/pytorch-cifar10/blob/enas/resnet/model.py
-#                https://github.com/KellerJordan/ResNet-PyTorch-CIFAR10/blob/master/model.py
-#                https://dnddnjs.github.io/cifar10/2018/10/09/resnet/
+# Base URL     :
 # ResNet
-# 2021 03 25 by Jinseuk Seok
+# 2021 03 25 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_resnet.py : Based on torch module
-                    Written by Jinwuk @ 2021-03-25
+                    Written by *********** @ 2021-03-25
 ====================================================
 Example : This python file is not executable
 '''
@@ -22,7 +20,6 @@ Example : This python file is not executable
 import torch.nn as nn
 import torch.nn.functional as F
 
-# code from https://github.com/KellerJordan/ResNet-PyTorch-CIFAR10/blob/master/model.py
 class IdentityPadding(nn.Module):
     def __init__(self, in_channels, out_channels, stride):
         super(IdentityPadding, self).__init__()

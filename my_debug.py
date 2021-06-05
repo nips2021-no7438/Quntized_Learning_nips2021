@@ -1,7 +1,7 @@
 #=========================================================================
 # For Debugging :
 # we use from behold import Behold as dbg and some macros defined as follows
-# 2020 07 02 by Jinseuk Seok
+# 2020 07 02 by ***********
 #=========================================================================
 import inspect
 import sys

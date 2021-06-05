@@ -4,12 +4,12 @@
 # Pytorch - My manual Learning Algorithm based on Pytorch
 # Working Directory : D:\Work_2021\python_test_2021\nips_2021_test\
 #
-# 2020 07 02 by Jinseuk Seok
+# 2020 07 02 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_nn02.py : Based on torch module
-                    Written by Jinwuk @ 2021-03-10
+                    Written by *********** @ 2021-03-10
 ====================================================
 Example : python torch_nn02.py
 '''

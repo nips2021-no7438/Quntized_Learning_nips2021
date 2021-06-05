@@ -3,13 +3,13 @@
 ###########################################################################
 # Pytorch - Service Function
 #
-# Base URL     : https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html
-# 2020 07 02 by Jinseuk Seok
+# Base URL     :
+# 2020 07 02 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_service.py
-                    Written by Jinwuk @ 2020-07-03
+                    Written by *********** @ 2020-07-03
 ====================================================
 only for test of the torch_service.py 
 '''

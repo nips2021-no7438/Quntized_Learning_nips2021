@@ -3,13 +3,13 @@
 ###########################################################################
 # Pytorch - Multilayer Perceptron Test
 # Working Directory : D:\Work_2020\[099]_git_test\python_test_2020\pytorch_test
-# Base URL     : https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html
-# 2020 07 02 by Jinseuk Seok
+#
+# 2020 07 02 by ***********
 ###########################################################################
 _description = '''\
 ====================================================
 torch_mlp.py
-                    Written by Jinwuk @ 2020-07-03
+                    Written by *********** @ 2020-07-03
 ====================================================
 Example : python opencv_object_tracking.py --tracker kcf
 '''
