@@ -1,4 +1,58 @@
-# Quntized_Learning_nips2021
+# Learning Algorithm with Monotonically Increasing Resolution of Quantization
+
+This repository is the official implementation of "Learning Algorithm with Monotonically Increasing Resolution of Quantization"
+
+## Requirements
+
+We write the python test codes based on the PyTorch.
+If the PyTorch is already installed on your system, pass this stage. If not, recomend the following URL :
+~~~
+https://pytorch.kr/get-started/locally/
+~~~
+
+To install requirements: pytorch 
+~~~
+pip3 install torch==1.8.1+cu102 torchvision==0.9.1+cu102 torchaudio===0.8.1 -f 
+~~~
+
+### System 
+We have tested the codes on a Linux system.  The detailed specification of the system is represented in the following Table.
+
+| item |  Specification |
+|---|---|
+| OS    | Linux, Ubuntu 16.0.4  |
+| CUDA  | CUDA version 10.2     | 
+|  GPU       | 
+
+
+
+pip install -r requirements.txt
+
+📋 Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+
+## Training
+To train the model(s) in the paper, run this command:
+
+python train.py --input-data <path_to_data> --alpha 10 --beta 20
+📋 Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+
+## Evaluation
+To evaluate my model on ImageNet, run:
+
+python eval.py --model-file mymodel.pth --benchmark imagenet
+📋 Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
+
+## Pre-trained Models
+You can download pretrained models here:
+
+My awesome model trained on ImageNet using parameters x,y,z.
+📋 Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable). Alternatively you can have an additional column in your results table with a link to the models.
+
+## Results
+Our model achieves the following performance on :
+
+
+
 
 ## Torch_nn02.py Usage
 
