@@ -73,11 +73,53 @@ python torch_testNN.py -d CIFAR10 -n ResNet -ng 1 -e error_ResNetAdam15.pickle -
 ## Pre-trained Models
 You can download pretrained models here:
 
+https://github.com/nips2021-no7438/Quntized_Learning_nips2021/tree/main/Trained_Model
+
+Each folders under the mentioned location, you can download the trained model to learning rates and learning algorithms.
+The name of the trained model file, such as "torch_nn02ResNetAdamW20_l10.pt" means that 
+
+| Name  | meaning |
+|---|---|
+| torch_nn02 | Just a prefix |
+| ResNet      | Data Set     | 
+| AdamW     | Leaning algorithm |
+| 20            | The number of epoch |
+| _l10          | Learning eate : 2^{-10} |.
 
 ## Results
 Our model achieves the following performance on :
+~~~
+-----------------------------------------------------------------
+Total number of batch : 12500
+Data Set              : CIFAR10
+Batch SIze            : 4
+Dimension of Data     : (50000, 32, 32, 3)
+Hardware Platform     : 0
+Model File Name       : ./r_data/torch_nn02ResNetQSGD20_l10.pt
+Error Trend File Name : ./r_data/error_ResNetQSGD20_l10.pickle
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l10.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 22074
+Accuracy      : 0.441480
+Total time    : 46.387455
+Average time  : 0.000928
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 4319
+Accuracy      : 0.431900
+Total time    : 55.805598
+Average time  : 0.005581
+-----------------------------------------------------------------
+No graph is set
+Operation Result File : operation_test.txt
+Processing is finished
+~~~
 
-
+You can obtain the above information by running the torch_testNN.py with appropriate parametrs 
 
 ## Appendix
 ### Usage of the provided code
