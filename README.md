@@ -56,7 +56,7 @@ Use Torch_testNN.py
 - You should specify the name of network, the network spec. and data set. 
 - If there exists an error file in the same folder, it plots the trend of error.
 
-To evaluate my model on ImageNet, run:
+To evaluate my model on ResNet, run:
 ~~~
 python torch_testNN.py -d CIFAR10 -n ResNet -ng 1 -e error_ResNetAdam15.pickle -m torch_nn02ResNetAdam.pt 
 ~~~
