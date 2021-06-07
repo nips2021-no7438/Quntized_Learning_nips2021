@@ -121,6 +121,7 @@ Processing is finished
 ~~~
 
 You can obtain the above information by running the torch_testNN.py with appropriate parametrs 
+Moreover, you can get the brief results of total experiments in the manuscript by "operation_test_SGD_QSGD.txt" and "operation_test_AdamW_QtAdamW.txt
 
 ## Appendix
 ### Usage of the provided code
