@@ -22,6 +22,7 @@ We have tested the codes on a Linux system.  The detailed specification of the s
 |---|---|
 | OS     | Linux, Ubuntu 16.0.4  |
 | CUDA   | CUDA version 10.2     | 
+| CPU    | Intel(R) Core(TM) i9-7900X CPU @ 3.30GHz |
 | GPU    | GeForce GTX 1080Ti    |
 | PyTorch| 1.8.2 Stable     | 
 | Python | 3.6 ~ 3.8.8      |   
