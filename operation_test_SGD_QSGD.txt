@@ -1,0 +1,288 @@
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l2.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47890 
+Accuracy      : 0.957800
+Total time    : 46.646048
+Average time  : 0.000933
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7727 
+Accuracy      : 0.772700
+Total time    : 56.596147
+Average time  : 0.005660
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l3.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 46934 
+Accuracy      : 0.938680
+Total time    : 47.999086
+Average time  : 0.000960
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7442 
+Accuracy      : 0.744200
+Total time    : 57.395495
+Average time  : 0.005740
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l4.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 46168 
+Accuracy      : 0.923360
+Total time    : 47.532528
+Average time  : 0.000951
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7342 
+Accuracy      : 0.734200
+Total time    : 57.017468
+Average time  : 0.005702
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l5.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 43227 
+Accuracy      : 0.864540
+Total time    : 47.289103
+Average time  : 0.000946
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 6865 
+Accuracy      : 0.686500
+Total time    : 56.902596
+Average time  : 0.005690
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l6.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 38923 
+Accuracy      : 0.778460
+Total time    : 46.575012
+Average time  : 0.000932
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 6573 
+Accuracy      : 0.657300
+Total time    : 56.016803
+Average time  : 0.005602
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l7.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 35619 
+Accuracy      : 0.712380
+Total time    : 49.657237
+Average time  : 0.000993
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 6574 
+Accuracy      : 0.657400
+Total time    : 59.188601
+Average time  : 0.005919
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l8.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 30236 
+Accuracy      : 0.604720
+Total time    : 46.481005
+Average time  : 0.000930
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 5756 
+Accuracy      : 0.575600
+Total time    : 56.023479
+Average time  : 0.005602
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l9.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 25293 
+Accuracy      : 0.505860
+Total time    : 47.278082
+Average time  : 0.000946
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 4973 
+Accuracy      : 0.497300
+Total time    : 56.785512
+Average time  : 0.005679
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetSGD20_l10.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 21746 
+Accuracy      : 0.434920
+Total time    : 47.573637
+Average time  : 0.000951
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 4266 
+Accuracy      : 0.426600
+Total time    : 57.128136
+Average time  : 0.005713
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l2.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47973 
+Accuracy      : 0.959460
+Total time    : 47.224530
+Average time  : 0.000944
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7727 
+Accuracy      : 0.772700
+Total time    : 56.672830
+Average time  : 0.005667
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l3.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47447 
+Accuracy      : 0.948940
+Total time    : 47.301526
+Average time  : 0.000946
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7569 
+Accuracy      : 0.756900
+Total time    : 56.873855
+Average time  : 0.005687
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l4.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 45817 
+Accuracy      : 0.916340
+Total time    : 47.333580
+Average time  : 0.000947
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7321 
+Accuracy      : 0.732100
+Total time    : 56.881336
+Average time  : 0.005688
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l5.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 43029 
+Accuracy      : 0.860580
+Total time    : 47.055223
+Average time  : 0.000941
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 6736 
+Accuracy      : 0.673600
+Total time    : 56.524557
+Average time  : 0.005652
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l6.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 39000 
+Accuracy      : 0.780000
+Total time    : 46.534926
+Average time  : 0.000931
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 6641 
+Accuracy      : 0.664100
+Total time    : 56.313481
+Average time  : 0.005631
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l7.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 35049 
+Accuracy      : 0.700980
+Total time    : 47.822545
+Average time  : 0.000956
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 6501 
+Accuracy      : 0.650100
+Total time    : 57.560342
+Average time  : 0.005756
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l8.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 30586 
+Accuracy      : 0.611720
+Total time    : 47.191025
+Average time  : 0.000944
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 5907 
+Accuracy      : 0.590700
+Total time    : 56.525344
+Average time  : 0.005653
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l9.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 25087 
+Accuracy      : 0.501740
+Total time    : 46.643770
+Average time  : 0.000933
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 4883 
+Accuracy      : 0.488300
+Total time    : 56.368855
+Average time  : 0.005637
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQSGD20_l10.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 22074 
+Accuracy      : 0.441480
+Total time    : 46.387455
+Average time  : 0.000928
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 4319 
+Accuracy      : 0.431900
+Total time    : 55.805598
+Average time  : 0.005581
+-----------------------------------------------------------------
