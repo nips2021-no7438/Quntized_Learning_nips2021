@@ -20,53 +20,72 @@ We have tested the codes on a Linux system.  The detailed specification of the s
 
 | item |  Specification |
 |---|---|
-| OS    | Linux, Ubuntu 16.0.4  |
-| CUDA  | CUDA version 10.2     | 
-|  GPU       | 
-
-
-
-pip install -r requirements.txt
-
-📋 Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+| OS     | Linux, Ubuntu 16.0.4  |
+| CUDA   | CUDA version 10.2     | 
+| GPU    | GeForce GTX 1080Ti    |
+| PyTorch| 1.8.2 Stable     | 
+| Python | 3.6 ~ 3.8.8      |   
 
 ## Training
-To train the model(s) in the paper, run this command:
+To train the proposed model in the paper, run this command:
+~~~
+python torch_nn02.py -d CIFAR10 -e 20 -n ResNet -g 1 -qp 2 -l 0.25 -m QSGD
+~~~
+The parameters described in the above command is as follows:
 
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-📋 Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+| Parameter | meaning |
+|---|---|
+| -d CIFAR10 | The name of data set is "CIFAR10"  |
+| -e 20      | The number of trotal epoch is "20" | 
+| -n ResNet  | The model of neural network is "ResNet" |
+| -g 1       | Use GPU |
+| -qp 2      | Initial index for qunatization. It means 2^{-2} |
+| -l 0.25    | learning rate is 0.25. we recommend 0.00390625~0.03125 |
+| -m QSGD    | The proposed learning algorithm. The other proposed algorithm is QSGD | 
+
+If you want to use a conventional learning such as SGD or Adam to comapare the proposed algorithm, use following command. 
+~~~
+python torch_nn02.py -d CIFAR10 -e 20 -n ResNet -g 1 -l 0.25 -m Adam
+~~~
+
+If you want to aware the detailed usage of the provided code, Please read the "Usage of the provided code" and "Torch_nn02.py Help Message" in Appendix
 
 ## Evaluation
-To evaluate my model on ImageNet, run:
+Use Torch_testNN.py 
+- This program is used for testing the result of learning 
+- You should specify the name of network, the network spec. and data set. 
+- If there exists an error file in the same folder, it plots the trend of error.
 
-python eval.py --model-file mymodel.pth --benchmark imagenet
-📋 Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
+To evaluate my model on ImageNet, run:
+~~~
+python torch_testNN.py -d CIFAR10 -n ResNet -ng 1 -e error_ResNetAdam15.pickle -m torch_nn02ResNetAdam.pt 
+~~~
+- Illustration of the parameters
+|  Parameter | meaning |
+|---|---|
+| -d CIFAR10 | The name of data set is "CIFAR10"  |
+| -n ResNet  | The model of neural network is "ResNet" |
+| -ng 1      | No plotting of error tresnd, if you want plotting of error trend, deglect the parameter or set 0| 
+| -e error_ResNetAdam15.pickle | set the error trend file |
+| -m torch_nn02ResNetAdam.pt   | set the trained model    |  
 
 ## Pre-trained Models
 You can download pretrained models here:
 
-My awesome model trained on ImageNet using parameters x,y,z.
-📋 Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable). Alternatively you can have an additional column in your results table with a link to the models.
 
 ## Results
 Our model achieves the following performance on :
 
 
 
-
-## Torch_nn02.py Usage
-
-### Set python Environment
-- Use the package on Ubuntu as follows:
-	- Check the version of python and following terms 
-	- We use python3.8 
-### Basic IO
-
-#### Input Files 
+## Appendix
+### Usage of the provided code
+#### Basic IO
+##### Input Files 
 - MNIST Data Set 
 - CIFAR10 Data Set 
 
-#### output Files 
+##### output Files 
 
 | Spec | Format | Example|
 |---|---|---|
@@ -74,14 +93,13 @@ Our model achieves the following performance on :
 | Operation File  | operation + Model name + Algorithm name + Epoch.txt | operation_ResNetAdam100.txt |
 | Error Trend File| error_ + Model name + Algorithm name + Epoch.pickle | error_ResNetAdam100.pickle |
 
-### For Cifar-10 Data Set 
-
-#### LeNet
+#### Data Sets
+##### LeNet
 ~~~
 python torch_nn02.py -m Adam -d CIFAR10 -e 100 -n LeNet -g 1
 ~~~
 
-#### ResNet 
+##### ResNet 
 ~~~
 python torch_nn02.py -m Adam -d CIFAR10 -e 100 -n ResNet -g 1 
 ~~~
@@ -90,34 +108,21 @@ python torch_nn02.py -m Adam -d CIFAR10 -e 100 -n ResNet -g 1
 - When you want not to use CUDA but to use CPU only, don't specify the g option or set the g option as 0.
 - For ResNet, due to the size of network, we strongly recommend using the g-option such as "-g 1"
 
-## Quantization Algorithm
-
+### Quantization Algorithm
 For example,  the following setting is for using GPU and initilization at $Q_p = 2$ 
 
-### QSGD
-
+#### QSGD
 ~~~
 python torch_nn02.py -m QSGD -d CIFAR10 -e 100 -n ResNet -g 1 -qp 2
 ~~~
 
-### QtAdamW
-
+#### QtAdamW
 ~~~
 python torch_nn02.py -m QtAdamW -d CIFAR10 -e 100 -n ResNet -g 1 -qp 2
 ~~~
 
-## Torch_testNN.py Usage
-- This program is used for testing the result of learning 
-- You should specify the name of network, the network spec. and data set. 
-- If there exists an error file in the same folder, it plots the trend of error.
-~~~
-python torch_testNN.py -d CIFAR10 -n ResNet -ng 1 -e error_ResNetAdam15.pickle -m torch_nn02ResNetAdam.pt 
-~~~
 
-
-## Appendix
-
-#### Torch_nn02.py Help Message
+### Torch_nn02.py Help Message
 
 ~~~
 usage: torch_nn02.py [-h] [-g DEVICE] [-l LEARNING_RATE] [-e TRAINING_EPOCHS] [-b BATCH_SIZE] [-f MODEL_FILE_NAME] [-m MODEL_NAME] [-n NET_NAME] [-d DATA_SET] [-a AUTOPROC]
