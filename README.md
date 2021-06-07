@@ -61,6 +61,7 @@ To evaluate my model on ImageNet, run:
 python torch_testNN.py -d CIFAR10 -n ResNet -ng 1 -e error_ResNetAdam15.pickle -m torch_nn02ResNetAdam.pt 
 ~~~
 - Illustration of the parameters
+
 |  Parameter | meaning |
 |---|---|
 | -d CIFAR10 | The name of data set is "CIFAR10"  |
