@@ -194,7 +194,7 @@ def _operation():
             _cost = criterion(_prediction, Y)
             _cost.backward()
 
-            # Learning : 해당 함수를 살펴본다.
+            # Learning : check at the following function
             optimizer.learning(epoch)
 
             # Update Index to batch
@@ -212,7 +212,7 @@ def _operation():
     # --------------------------------------------------------
     # Test
     # --------------------------------------------------------
-    # 학습을 진행하지 않을 것이므로 torch.no_grad()
+    # without any learning so that we operate the test under torch.no_grad()
     with torch.no_grad():
         _total, _correct, _accuracy = Dset.Test_Function(model, _device)
 
