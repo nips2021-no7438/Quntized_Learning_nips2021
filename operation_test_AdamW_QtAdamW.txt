@@ -1,0 +1,288 @@
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l2.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 39366 
+Accuracy      : 0.787320
+Total time    : 46.770971
+Average time  : 0.000935
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 6926 
+Accuracy      : 0.692600
+Total time    : 56.369677
+Average time  : 0.005637
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l3.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 39735 
+Accuracy      : 0.794700
+Total time    : 46.411675
+Average time  : 0.000928
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 6900 
+Accuracy      : 0.690000
+Total time    : 55.693740
+Average time  : 0.005569
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l4.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 44115 
+Accuracy      : 0.882300
+Total time    : 46.959226
+Average time  : 0.000939
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7446 
+Accuracy      : 0.744600
+Total time    : 56.499564
+Average time  : 0.005650
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l5.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 46956 
+Accuracy      : 0.939120
+Total time    : 47.247755
+Average time  : 0.000945
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7891 
+Accuracy      : 0.789100
+Total time    : 56.734180
+Average time  : 0.005673
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l6.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47809 
+Accuracy      : 0.956180
+Total time    : 47.365602
+Average time  : 0.000947
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 8024 
+Accuracy      : 0.802400
+Total time    : 57.211256
+Average time  : 0.005721
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l7.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47975 
+Accuracy      : 0.959500
+Total time    : 47.616086
+Average time  : 0.000952
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 8077 
+Accuracy      : 0.807700
+Total time    : 57.129918
+Average time  : 0.005713
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l8.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 48113 
+Accuracy      : 0.962260
+Total time    : 47.751797
+Average time  : 0.000955
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 8120 
+Accuracy      : 0.812000
+Total time    : 57.348598
+Average time  : 0.005735
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l9.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 48069 
+Accuracy      : 0.961380
+Total time    : 47.696424
+Average time  : 0.000954
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 8099 
+Accuracy      : 0.809900
+Total time    : 57.322009
+Average time  : 0.005732
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetAdamW20_l10.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47855 
+Accuracy      : 0.957100
+Total time    : 47.098641
+Average time  : 0.000942
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7828 
+Accuracy      : 0.782800
+Total time    : 56.634442
+Average time  : 0.005663
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l2.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 39080 
+Accuracy      : 0.781600
+Total time    : 46.773748
+Average time  : 0.000935
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7128 
+Accuracy      : 0.712800
+Total time    : 56.362249
+Average time  : 0.005636
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l3.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 41933 
+Accuracy      : 0.838660
+Total time    : 47.933107
+Average time  : 0.000959
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7275 
+Accuracy      : 0.727500
+Total time    : 57.332779
+Average time  : 0.005733
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l4.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 44562 
+Accuracy      : 0.891240
+Total time    : 47.367818
+Average time  : 0.000947
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7663 
+Accuracy      : 0.766300
+Total time    : 57.036960
+Average time  : 0.005704
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l5.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47311 
+Accuracy      : 0.946220
+Total time    : 47.352508
+Average time  : 0.000947
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7913 
+Accuracy      : 0.791300
+Total time    : 56.870053
+Average time  : 0.005687
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l6.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47784 
+Accuracy      : 0.955680
+Total time    : 47.129197
+Average time  : 0.000943
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 8054 
+Accuracy      : 0.805400
+Total time    : 56.695445
+Average time  : 0.005670
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l7.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 48392 
+Accuracy      : 0.967840
+Total time    : 47.321562
+Average time  : 0.000946
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 8139 
+Accuracy      : 0.813900
+Total time    : 57.275208
+Average time  : 0.005728
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l8.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 48214 
+Accuracy      : 0.964280
+Total time    : 48.185818
+Average time  : 0.000964
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 8174 
+Accuracy      : 0.817400
+Total time    : 57.893738
+Average time  : 0.005789
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l9.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47885 
+Accuracy      : 0.957700
+Total time    : 47.162563
+Average time  : 0.000943
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7959 
+Accuracy      : 0.795900
+Total time    : 56.686382
+Average time  : 0.005669
+-----------------------------------------------------------------
+ResNet num. of Layers : 32
+-----------------------------------------------------------------
+Model File Name   ./r_data/torch_nn02ResNetQtAdamW20_l10.pt
+-----------------------------------------------------------------
+Test Mode     : Trainning
+Total samples : 50000   Right Score : 47421 
+Accuracy      : 0.948420
+Total time    : 47.417584
+Average time  : 0.000948
+-----------------------------------------------------------------
+Test Mode     : Testing
+Total samples : 10000   Right Score : 7712 
+Accuracy      : 0.771200
+Total time    : 56.842530
+Average time  : 0.005684
+-----------------------------------------------------------------
